@@ -5,20 +5,12 @@
 /* Font Styles */
 
 body {
+  max-width: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1rem;
   margin: 1rem;
-  background-color: rgba(7, 205, 112, 0.305);
-}
-
-.headerAlign {
-  max-width: 400px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  margin: 0px 5px 0px 5px;
+  background-color: rgba(187, 250, 221, 0.305);
 }
 
 /* h1, */
@@ -36,7 +28,7 @@ p {
 }
 
 nav {
-  max-width: 400px;
+  width: auto;
 }
 
 a {
@@ -58,21 +50,22 @@ ul {
   display: flex;
   list-style: none;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
   background-color: rgba(240, 248, 255, 0.5);
-  width: 400px;
-  height: 40px;
-  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
   border-radius: 1rem;
   border: 1px solid black;
   margin: 15px 10px 25px 18px;
+  gap: 2em;
 }
 
 .treeImg {
-  max-width: 400px;
-  height: 300px;
-  margin-left: 15px;
+  display: block;
+  width: 100%;
+  max-width: 600px;
 }
 .sectionOne {
   display: flex;
@@ -83,7 +76,7 @@ ul {
 .treeParagraph2,
 .treeParagraph3 {
   background-color: aliceblue;
-  max-width: 400px;
+  max-width: auto;
 }
 
 .sectionOne > section {
